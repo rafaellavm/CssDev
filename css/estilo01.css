@@ -2,3 +2,25 @@ body{
     
     background:yellow;
 }
+
+/* --------------------------------------- AULA 05 --------------------------------------- */
+
+/* --- Seleção por tipo de elemento --- */
+
+p {
+
+    font-size: 12px;
+}
+
+/* --- Seleção por id de elemento --- */
+
+#paragrafo01 {
+    font-size: 30px;
+}
+
+/* --- Seleção por classe --- */
+
+.nome_da_classe{
+
+    background: white;
+}
