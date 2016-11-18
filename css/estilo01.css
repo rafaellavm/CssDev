@@ -1,7 +1,7 @@
-body{
+/* body{
     
     background:yellow;
-}
+} */
 
 /* --------------------------------------- AULA 05 --------------------------------------- */
 
@@ -24,3 +24,30 @@ p {
 
     background: white;
 }
+
+
+/* --------------------------------------- AULA 06 --------------------------------------- */
+
+/*  */
+.fundo_pagina{
+
+    background: rgb(0,0,0);
+}
+
+.fundo_elemento{
+
+    background: #88FF00;
+}
+
+.fundo_elemento_com_rgba{
+
+    /* o valor 30 é o valor alfa, o valor de 'transparência'
+     vai do valor 0 até 1
+    */
+    background: rgba(152,152,152,0.3);
+}
+
+
+
+
+
