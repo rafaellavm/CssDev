@@ -47,7 +47,26 @@ p {
     background: rgba(152,152,152,0.3);
 }
 
+/* --------------------------------------- AULA 07 --------------------------------------- */
 
+/* imagem de fundo */
+
+
+/* repeat-x : repetição somente no eixo x
+   repeat-y : repetição no eixo y
+   no-repeat: não repete o background
+
+*/
+
+/*pro html ocupar 100% da tela*/
+html{
+  height: 100%;
+}
+.fundo_madeira{
+
+    background: url('../imagens/fundo.png') center center repeat-y;
+
+}
 
 
 
