@@ -102,6 +102,81 @@ html {
 	color:#FF00FF;
 }
 
+/* --------------------------------------- AULA 09 --------------------------------------- */
+
+
+/* text */
+
+/* espaçamento entre as linhas */
+.aula09_espacamento{
+
+    letter-spacing: 20px;
+}
+
+/* espaçamento entre as palavras */
+.aula09_wordSpacing{
+
+    word-spacing: 40px;
+}
+
+/* direciona a posição do texto */
+.aula09_textAlign{
+
+    text-align: center;
+}
+
+.aula09_textDecoration{
+
+    /* none, underline, overline, line-through */
+    text-decoration: blink;
+}
+
+/* dando margin à esquerda
+como se fosse uma tabulação */
+.aula09_textIndent{
+    text-indent: 10%;
+}
+
+.aula09_textTransform{
+
+    /* none, captalize, uppercase, lowercase */
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
