@@ -1,14 +1,3 @@
-# cursoCSS
+# curso Básico a intermediário
 
-…or create a new repository on the command line
-
-echo "# cursoCSS" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/rafaellavm/cursoCSS.git
-git push -u origin master
-…or push an existing repository from the command line
-
-git remote add origin https://github.com/rafaellavm/cursoCSS.git
-git push -u origin master
+Vários exemplos de códigos do CSS3, do básico ao intermediário.
