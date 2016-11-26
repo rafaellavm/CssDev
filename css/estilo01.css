@@ -144,13 +144,39 @@ como se fosse uma tabulação */
 }
 
 
+/* --------------------------------------- AULA 10 --------------------------------------- */
 
 
+/* text */
 
+.aula10_border01{
 
+    border: 1px solid black;
+}
 
+.aula10_border02{
 
+    border-style: dotted;
+    border-width: 3px;
+    border-color: red;
+}
 
+.aula10_semBorda{
+
+    border: none;
+}
+
+.aula10_bordaSuperiorInferior{
+
+    border-bottom: 3px dashed green;
+    border-top: 5px outset red;
+}
+
+.aula10_bordaEsquerdaDireita{
+
+    border-right: 10px solid black;
+    border-left: 5px inset red;
+}
 
 
 
