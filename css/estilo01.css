@@ -178,10 +178,39 @@ como se fosse uma tabulação */
     border-left: 5px inset red;
 }
 
+/* --------------------------------------- AULA 11 --------------------------------------- */
 
+/* margin e padding */
 
+.aula11_auxiliar {
+	float:left;
+	display:block;
+	width:120px;
+	height:120px;
+}
 
+.aula11_margin01 {
+	margin:10px;
+}
 
+.aula11_margin02 {
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+/* o padding se soma com a altura ou a largura */
+.aula11_padding01 {
+	padding:10px;
+}
+
+.aula11_padding02 {
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
 
 
 
