@@ -212,9 +212,25 @@ como se fosse uma tabulação */
 	padding-bottom:30px;
 }
 
+/* --------------------------------------- AULA 12 --------------------------------------- */
 
+/* list-style list-style-image list-style-position list-style-type */
 
+.aula12_lista{
 
+    /*list-style-image: url("/imagens/seta_lista.jpg");
+
+    /*inside - Os bullets/(marcadores) são exibidos dentro dos boxes dos textos. */
+    /* outside - Os bullets/(marcadores) não são exibidos dentro dos boxes dos textos. (padrão). */
+    /*list-style-position: outside;*/
+
+    border: 1px solid black;
+
+    list-style-type:lower-alpha;
+
+    padding: 0;
+    margin:0;
+}
 
 
 
