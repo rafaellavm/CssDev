@@ -233,17 +233,51 @@ como se fosse uma tabulação */
 }
 
 
+/* --------------------------------------- AULA 13 --------------------------------------- */
 
 
+.aula13_ul{
 
+    /* removendo a margin do ul */
+    padding: 8px 0px 8px 0px;
 
+    /* auto: essas duas margin centraliza o elemento na tela */
+    margin: 0px auto 0px auto;
+    list-style-type: none;
+    background: #8B668B;
+    width: 940px;
 
+}
 
+/* > mostra o primeiro nível abaixo do elemento */
+.aula13_ul > li{
 
+     /* faz flutuar os elementos pra esquerda
+    float:left;*/
+    display: inline;
+    margin:8px 0px 8px 0px;
+}
 
+.aula13_ul a{
+    color:white;
+    text-decoration: none;
+    padding: 8px 20px 8px 20px;
+}
 
+.aula13_ul a:hover{
 
+    background: black;
+    text-decoration: underline;
+}
 
+.aula13_ul a:active{
+    background: red;
+}
+
+.aula13_ul a:visited{
+    color: yellow;
+
+}
 
 
 
