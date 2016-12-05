@@ -279,9 +279,43 @@ como se fosse uma tabulação */
 
 }
 
+/* --------------------------------------- AULA 14 --------------------------------------- */
+
+.aula14_tabela01{
+
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid black;
+
+    /* isso centraliza a tabela */
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
+.aula14_tabela01 td{
+    border: 1px solid black;
+    padding:30px;
+}
 
+.aula14_tabela01 tr:hover{
+    background:blue;
+    color:white;
+}
 
+.aula14_tabela01 .trPar{
 
+    background:#ccc;
+}
 
+.aula14_tabela01 thead tr{
+
+    background:red;
+    color:white;
+}
+
+.aula14_tabela01 thead tr:hover{
+
+    background:none;
+    color:black;
+}
