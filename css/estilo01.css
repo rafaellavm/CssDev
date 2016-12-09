@@ -319,3 +319,88 @@ como se fosse uma tabulação */
     background:none;
     color:black;
 }
+/* --------------------------------------- AULA 15 --------------------------------------- */
+
+#frmContato{
+
+    width: 500px;
+
+    /* pra centralizar: */
+    margin-left:auto;
+    margin-right: auto;
+    border:1px solid grey;
+    padding: 20px;
+}
+
+#frmContato label{
+    display:block;
+    margin-bottom: 20px;
+}
+
+#frmContato textarea:focus{
+
+   border: 1px dashed blue;
+}
+
+#frmContato textarea{
+
+    width: 100%;
+    margin-bottom: 15px;
+    height: 180px;
+     border: 1px solid grey;
+    border-radius: 6px;
+    padding:7px;
+}
+
+
+#frmContato label input:hover{
+    border: 1px dashed blue;
+}
+
+#frmContato label input{
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding:7px;
+}
+
+.aula14_botao{
+
+    border-radius: 4px;
+    border: 1px solid grey;
+    color:white;
+    background:blue;
+    padding: 10px;
+}
+
+.aula14_botao:hover{
+
+    border-radius: 4px;
+    border: 1px solid grey;
+    color:white;
+    background:black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
