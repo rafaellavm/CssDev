@@ -382,11 +382,42 @@ como se fosse uma tabulação */
     padding: 10px;
 }
 
+/* --------------------------------------- AULA 16 --------------------------------------- */
 
+/* pseudo-elemento first-letter */
 
+/* primeira LETRA de todos os parágrafos */
 
+#divExterna p:first-letter{
 
+    font-size:25px;
+}
 
+/* primeira LINHA de todos os parágrafos */
+#divExterna p:first-line{
+
+    text-decoration: underline;
+}
+
+/* primeira PARÁGRAFO de todos os parágrafos */
+#divExterna p:first-child{
+
+    background: yellow;
+}
+
+/* último PARÁGRAFO de todos os parágrafos */
+#divExterna p:last-child{
+
+    background: red;
+    color: white;
+}
+
+/* assim pega o terceiro parágrafo e coloca o css indicado */
+#divExterna p:nth-child(3){
+
+    background: green;
+    color: white;
+}
 
 
 
