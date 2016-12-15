@@ -419,16 +419,51 @@ como se fosse uma tabulação */
     color: white;
 }
 
+/* --------------------------------------- AULA 17 --------------------------------------- */
+
+/* Classes avançadas */
+
+/* Uma classe é independente da outra, mas possuem as mesmas propriedades */
+.aula17_classe01, .aula17_classe02{
+
+    background: yellow;
+    width:150px;
+    height:150px;
+    float:left;
+    border: 1px solid black;
+    display: block;
+    margin: 8px;
+
+}
+
+/* 1) quero que  classe aula17_classe02 tenha um fundo diferente. Então eu repito essa classe e só mundo a cor de fundo */
+
+.aula17_classe02{
+
+    background: grey;
+
+}
+
+/* TODAS as divs da classe 01 */
+
+.aula17_classe01  div{
+    font-size: 14px;
+}
 
 
+/*quero que todas as divs q ESTEJAM NO PRIMEIRO NÍVEL tenham o tamanho de fonte diferenciado
+então serão todas as divs, excluindo seus filhos*/
 
+.aula17_classe01 > div{
+    font-size: 20px;
+}
 
+/* a classe 'aula17_classe02' será aplicada dentro de todos que tiverem a classe 'aula17_classe01' */
+.aula17_classe01 .aula17_classe02{
 
-
-
-
-
-
+    background: red;
+    color: white;
+}
 
 
 
