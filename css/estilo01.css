@@ -465,6 +465,54 @@ então serão todas as divs, excluindo seus filhos*/
     color: white;
 }
 
+/* --------------------------------------- AULA 18 --------------------------------------- */
+
+/* Display, Float e Clear */
+
+.aula18_container{
+    width:940px;
+    margin-left: auto;
+    margin-right: auto;
+    background:gray;
+}
+
+.aula18_container .coluna{
+    background:red;
+    width: 312px; /* dividindo 940 por 3*/
+    float: left; /* assim as colunas ficam uma ao lado da outra 3*/
+    margin-left:1px;
+}
+
+.aula18_container .coluna:last-child{
+   float:right;
+}
+
+.aula18_clearFloat{
+
+    /* ele limpa o float evitando que o mesmo fique por cima de outros elementos 3*/
+    clear: both;
+}
+
+.aula18_displayBlock, .aula18displayInline{
+
+    border: 1px solid black;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display:block; /* display:block: ocupa toda a linha, e ao final dela coloca uma quebra de linha */
+}
+
+.aula18displayInline{
+
+    display:inline; /* display:inline: ocupa somente o espaço do seu conteúdo */
+}
+
+
+
+
+
+
+
+
 
 
 
