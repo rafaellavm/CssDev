@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>CSS: Posicionamento de DIV</title>
+    <style type="text/css">
+
+    </style>
+    <link href="css/estilo01.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script>
+        $(function(){
+
+           $('#btnFecharModal').click(function(){
+               $('#aula19_modal').hide('slow');
+           });
+        });
+    </script>
+    </head>
+
+<body class="aula19_body">
+
+    <div class="aula19_modal" id="aula19_modal">
+        <div class="aula19_conteudoModal">
+            <h1>Atenção!</h1>
+            <p>Participe da nossa promoção!</p>
+            <p><a href="#" id="btnFecharModal">Fechar</a></p>
+        </div>
+    </div>
+
+    <div class="aula18_container">
+        <div>
+            cabeçalho
+        </div>
+        <div>
+            <div class="coluna">
+                <p>Item 01</p>
+                <p>Item 01</p>
+                <p>Item 01</p>
+                <p>Item 01</p>
+                <p>Item 01</p>
+            </div>
+            <div class="coluna">Texto inicial</div>
+            <div class="coluna">Lateral direita</div>
+        </div>
+        <div class="aula18_clearFloat">
+            rodapé
+        </div>
+    </div>
+
+    <div class="aula18_displayBlock">Display block</div>
+    <div class="aula18displayInline">Display inline</div>
+    <div class="aula18displayInline">Display inline</div>
+</body>
+
+</html>
