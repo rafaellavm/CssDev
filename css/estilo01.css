@@ -507,7 +507,7 @@ então serão todas as divs, excluindo seus filhos*/
     display:inline; /* display:inline: ocupa somente o espaço do seu conteúdo */
 }
 
-/* --------------------------------------- AULA 18 --------------------------------------- */
+/* --------------------------------------- AULA 19 --------------------------------------- */
 
 /* Posicionamento de DIV  */
 
@@ -540,6 +540,88 @@ então serão todas as divs, excluindo seus filhos*/
 
     /* centralizar verticalmente */
 }
+
+/* --------------------------------------- AULA 20 --------------------------------------- */
+
+/* Cálculos Matemáticos / Calc  */
+
+.aula20_div01{
+
+    width: 500px;
+    height:300px;
+    border: 2px solid red;
+    background: yellow;
+
+    /* posição absolute não respeita os limites da div pai e que relative respeita, e teoricamente se posiciona em relação a si.*/
+    position:absolute;
+
+    /* vamos centralizar na horizontal: */
+    /* width 500 - 250 = 250 */
+    /* moz, webkit, etc, pra funcionar em vários browsers */
+
+    left: -moz-calc(50% - 250px);
+    left: -webkit-calc(50% - 250px);
+    left: calc(50% - 250px);
+
+    /* vamos centralizar na vertical: */
+     /* height 300 = 150 (metade de 300) */
+    top: -moz-calc(50% - 150px);
+    top: -webkit-calc(50% - 150px);
+    top: calc(50% - 150px);
+}
+
+.aula20_div02{
+
+    width: 400px;
+    height:200px;
+    border: 2px solid black;
+    background: blue;
+
+    /* posição absolute não respeita os limites da div pai e que relative respeita, e teoricamente se posiciona em relação a si.*/
+    position:absolute;
+
+    /* vamos centralizar na horizontal: */
+    /* width 500 - 250 = 250 */
+    /* moz, webkit, etc, pra funcionar em vários browsers */
+
+    left: -moz-calc(50% - 200px);
+    left: -webkit-calc(50% - 200px);
+    left: calc(50% - 200px);
+
+    /* vamos centralizar na vertical: */
+     /* height 300 = 150 (metade de 300) */
+    top: -moz-calc(50% - 100px);
+    top: -webkit-calc(50% - 100px);
+    top: calc(50% - 100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
