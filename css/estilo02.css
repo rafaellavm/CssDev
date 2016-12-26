@@ -1,0 +1,29 @@
+p {
+    font-size: 14px;
+}
+
+
+/* --------------------------------------- AULA 21 --------------------------------------- */
+
+/* Recorte de elementos / Clip  */
+
+.aula21_div01{
+
+    background:yellow;
+    width:400px;
+    border: 1px solid red;
+    position: absolute;
+    clip: rect(0px 240px 260px 80px);
+}
+
+.aula21_img{
+
+    background:yellow;
+    position: absolute;
+    clip: rect(0px 250px 194px 0px);
+}
+
+
+
+
+
