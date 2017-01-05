@@ -23,6 +23,61 @@ p {
     clip: rect(0px 250px 194px 0px);
 }
 
+/* --------------------------------------- AULA 22 --------------------------------------- */
+
+/* Border e Text Shadow  */
+
+/* deslocamento horizontal, deslocamento vertical, blur, cor
+
+poe colocar mais de uma cor
+*/
+
+h3.aula22_titulo{
+
+    -moz-text-shadow: 5px 5px 10px red, -5px -5px 10px yellow;
+    -webkit-text-shadow: 5px 5px 10px red, -5px -5px 10px yellow;
+    text-shadow: 5px 5px 10px red, -5px -5px 10px yellow;
+}
+
+div.aula22_divTexto{
+
+    width: 150px;
+    padding: 10px;
+    border: 1px solid gray;
+
+    -moz-box-shadow: 5px 5px 15px black, -5px -5px 30px green;
+    -webkit-box-shadow: 5px 5px 15px black, -5px -5px 30px green;
+    box-shadow: 5px 5px 15px black, -5px -5px 30px green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
