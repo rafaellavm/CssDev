@@ -85,6 +85,73 @@ div.aula22_divTexto{
 }
 
 
+/* --------------------------------------- AULA 24 --------------------------------------- */
+
+/* Novos seletores */
+
+.aula24 a[target] {
+	color: red;
+}
+
+.aula24 a[target="_blank"] {
+	background: black;
+}
+
+.aula24 a[title~="Curso"] {
+	font-size: 18px;
+	border:1px solid red;
+	padding: 10px;
+}
+/* buscar quem inicia com https */
+.aula24 a[href^="https"] {
+	background:red;
+	color: white;
+	padding: 10px;
+}
+
+.aula24 a:empty {
+	width: 50px;
+	height:20px;
+	background: yellow;
+	display: block;
+	margin: 5px;
+	border: 1px solid black;
+}
+
+.aula24 input:disabled {
+	background:gray;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.aula24 input:checked {
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
