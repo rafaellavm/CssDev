@@ -54,7 +54,7 @@ div.aula22_divTexto{
 
 /* Border radius */
 
-.aula23_logomarca{
+.aula23_logomarca, .aula25_logomarca{
 
     width: 400px;
     height: 40px;
@@ -129,10 +129,27 @@ div.aula22_divTexto{
 }
 
 
+/* --------------------------------------- AULA 25 --------------------------------------- */
+
+/* Introdução ao Animation */
+
+.aula25_logomarca{
+  
+    /* */
+    /*transition: border-radius 2s linear 0.1s;*/
+    transition: 
+        border-radius 2s ease-out 0.1s, 
+        background 2s ease-out 0.1s,
+        font-size 2s ease-out 0.9s;
+}
 
 
+.aula25_logomarca:hover{
 
-
+    border-radius: 60px;
+    background: red;
+    font-size: 50px;
+}
 
 
 
