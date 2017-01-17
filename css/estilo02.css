@@ -152,7 +152,53 @@ div.aula22_divTexto{
 }
 
 
+/* --------------------------------------- AULA 26 --------------------------------------- */
 
+/*  Criando uma animação usando Animation */
+
+@keyframes animacaoAula26{
+
+    /* 0% da animação */
+    0%{
+        background: black;
+        position: absolute;
+        width:100px;
+        top: 5px;
+        left:5px;
+    }
+
+    25%{
+        background: blue;
+        position: absolute;
+        width:150px;
+        top: 400px;
+        left:400px;
+    }
+
+    50%{
+        background: red;
+    }
+
+    75%{
+        background: yellow;
+    }
+
+    100% {
+        background: green;
+    }
+}
+
+.aula26 div{
+    width: 100px;
+    height: 150px;
+    border: 5px solid red;
+    position: absolute;
+    top:0px;
+    left:0px;
+    animation: animacaoAula26 5s ease 1s 10 alternate;
+   -webkit-animation: animacaoAula26 5s ease 1s 10 alternate;
+   -moz-animation: animacaoAula26 5s ease 1s 10 alternate;
+}
 
 
 
