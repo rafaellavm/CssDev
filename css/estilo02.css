@@ -201,10 +201,25 @@ div.aula22_divTexto{
 }
 
 
+/* --------------------------------------- AULA 27 --------------------------------------- */
+
+/* Utilizando fontes personalizadas com Font Face */
 
 
+@font-face{
+    font-family: nossaFontePersonalizada;
+    src: url('../KaushanScript-Regular.ttf')
+}
 
+@font-face{
+    font-family: nossaFontePersonalizada2;
+    src: url('../JustMeAgainDownHere.ttf')
+}
 
+.aula27 p{
+    font-size: 18px;
+    font-family: nossaFontePersonalizada2;
+}
 
 
 
