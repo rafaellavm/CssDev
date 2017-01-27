@@ -250,3 +250,40 @@ div.aula22_divTexto {
     -moz-transform: scale(1);
     -o-transform: scale(1);*/
 }
+
+/* --------------------------------------- AULA 29 --------------------------------------- */
+
+
+/* Transform 3D */
+
+.aula29 #div01, #div02{
+    -webkit-perspective: 600px;
+    display: block;
+    width:240px;
+    padding: 10px;
+    float:left;
+    margin: 20px;
+}
+
+.aula29 #div01 #img01{
+    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotateX(40deg);
+    transition: -webkit-transform 1s linear 0.1s;
+}
+
+.aula29 #div02 #img02{
+    -webkit-transform: rotateY(120deg);
+    -webkit-transform: rotateZ(10deg);
+    transition: -webkit-transform 1s linear 0.1s;
+}
+
+.aula29 #div02 #img02:hover{
+    -webkit-transform: rotateY(5deg);
+    -webkit-transform: rotateZ(360deg);
+}
+
+.aula29 #div01 #img01:hover{
+    -webkit-transform: rotateY(90deg);
+    -webkit-transform: rotateX(350deg);
+}
+
