@@ -287,3 +287,28 @@ div.aula22_divTexto {
     -webkit-transform: rotateX(350deg);
 }
 
+/* --------------------------------------- AULA 30 --------------------------------------- */
+
+
+/* Background CSS3 */
+
+.aula30 #div01{
+    position: absolute;
+    left: calc(50% -250px);
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    border: 10px red solid;
+    margin: 20px;
+
+    background-image: url("../imagens/clip.jpg"),url("../imagens/fundo.png");
+    background-repeat: no-repeat, repeat;
+    background-position: left,right;
+    
+    /*background-size: 400px 100%;*/
+
+    /* content-box, padding-box, border-box*/
+    background-origin: padding-box;
+    
+
+}
